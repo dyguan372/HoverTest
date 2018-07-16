@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack --mode production",
-    "watch": "webpack --watch",
+    "watch": "webpack --watch"
   },
   "engines": {
     "node": "6.9.1"
