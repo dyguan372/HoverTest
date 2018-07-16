@@ -1,19 +1,14 @@
 {
-  "name": "vsdata",
-  "version": "2.0.0",
-  "description": "Data SMART Tools Landing Page Website",
+  "name": "hovertest",
+  "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch",
-    "setup": "node scripts/decrypt.js",
-    "updateSecrets": "node scripts/decrypt.js -encrypt",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "6.9.1"
   },
-  "author": "Barry Tu <barrytu@microsoft.com>",
   "license": "UNLICENSED",
   "dependencies": {
     "@types/radium": "0.24.0",
