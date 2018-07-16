@@ -9,7 +9,7 @@ import Radium from "radium";
 //     return true;    
 // }
 
-export default Radium(class FooterBrand extends React.Component {
+export default Radium(class FooterBand extends React.Component {
 
     // shouldComponentUpdate(nextProps, nextState) {
     //     let propChange = this.props !== nextProps &&
