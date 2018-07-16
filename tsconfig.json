@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "jsx": "react",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
