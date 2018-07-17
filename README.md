@@ -1,16 +1,17 @@
 # HoverTest
 
+## Install
 ```
 npm install
 npm run build
 node server.js
 ```
 
-# Expected
+## Expected
 The text "hover" is expected to show when the mouse hovers on the yellow band.
 
-# Actual
+## Actual
 The text does not show.
 
-# Workaround
+## Workaround
 Uncomment the code in footerBrand.tsx.
