@@ -34,7 +34,7 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-const port = process.env.port;
+const port = 2002;
 
 app.listen(port, function () {
   console.log(`listening on port ${port}`);
